@@ -1,7 +1,7 @@
-eureka:
-   client: 
-     serviceUrl:
-          defaultZone: "http://localhost:8010/eureka"
-   testserver: "testword" 
-
-testserver: "test"
+environment: test
+servers: 
+    - www.abc.test.com
+    - www.xyz.test.com
+cpu:
+    - cpu1
+    - cpu2
